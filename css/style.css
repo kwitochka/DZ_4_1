@@ -11,7 +11,7 @@ body {
 	margin: 10px;
 	border: 2px solid rgb(90, 93, 90);
 	width: 376px;
-    height: 526px;
+  height: 526px;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 	color: #242424;
 }
 
-header, .sale {
+h1, .sale {
 	font-size: 22px;
 }
 
@@ -28,50 +28,39 @@ img {
 	margin: 26px auto 0 auto;
 }
 
+.button {
+  border: none;
+}
+
 .sale {
   margin-top: 5px;
-  padding: 0 45px 5px 44px; 
   background-color: rgb(139, 193, 68);
-  /*width: 190px;
-  height: 31px;*/
+  width: 190px;
+  height: 31px;
   color: white;
   box-shadow: -3px 3px 0px 0px rgb(156, 156, 156);
 }
 
-/*.Rectangle_1 {
-  background-color: rgb(139, 193, 68);
-  box-shadow: 0px 4px 0px 0px rgba(156, 156, 156, 0.004);
-  position: absolute;
-  left: 12px;
-  top: 385px;
-  width: 190px;
-  height: 31px;
-  z-index: 12;
-}*/
-
 .buy {
   margin-left: 63px;
-  padding: 5px 70px;
- /*  display: inline-block;*/
   background-color: #ff0000;
   border-bottom: 2px solid #850000;
- /* width: 228px;
-  height: 45px;*/
+  width: 228px;
+  height: 45px;
   font-size: 28px;
-  font-family: "Tahoma";
   color: rgb(255, 255, 255);
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
+
 .price {
-  margin-top: 22px;
-  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   font-size: 31px;
-  font-family: "Tahoma";
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-.buy, .price, header, .sale {
+.buy, .price, h1, .sale {
 	text-align: center;
 }
